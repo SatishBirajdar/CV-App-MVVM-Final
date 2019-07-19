@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E31E5A0322E140A00018B5EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A0222E140A00018B5EB /* AppDelegate.swift */; };
-		E31E5A0522E140A00018B5EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A0422E140A00018B5EB /* ViewController.swift */; };
+		E31E5A0522E140A00018B5EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A0422E140A00018B5EB /* HomeViewController.swift */; };
 		E31E5A0822E140A00018B5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E5A0622E140A00018B5EB /* Main.storyboard */; };
 		E31E5A0A22E140A40018B5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E5A0922E140A40018B5EB /* Assets.xcassets */; };
 		E31E5A0D22E140A40018B5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E5A0B22E140A40018B5EB /* LaunchScreen.storyboard */; };
-		E31E5A1822E140A50018B5EB /* CV_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A1722E140A50018B5EB /* CV_AppTests.swift */; };
+		E31E5A1822E140A50018B5EB /* WebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A1722E140A50018B5EB /* WebServiceTests.swift */; };
 		E31E5A2322E140A50018B5EB /* CV_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A2222E140A50018B5EB /* CV_AppUITests.swift */; };
+		E31E5A3122E141000018B5EB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3022E141000018B5EB /* HomeViewModel.swift */; };
+		E31E5A3322E141E80018B5EB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3222E141E80018B5EB /* WebService.swift */; };
+		E31E5A3522E1424C0018B5EB /* Biodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3422E1424C0018B5EB /* Biodata.swift */; };
+		E31E5A3722E18C220018B5EB /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3622E18C220018B5EB /* Experience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +40,21 @@
 /* Begin PBXFileReference section */
 		E31E59FF22E140A00018B5EB /* CV App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CV App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31E5A0222E140A00018B5EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E31E5A0422E140A00018B5EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E31E5A0422E140A00018B5EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E31E5A0722E140A00018B5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E31E5A0922E140A40018B5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31E5A0C22E140A40018B5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E31E5A0E22E140A40018B5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E31E5A1322E140A50018B5EB /* CV AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CV AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E31E5A1722E140A50018B5EB /* CV_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV_AppTests.swift; sourceTree = "<group>"; };
+		E31E5A1722E140A50018B5EB /* WebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceTests.swift; sourceTree = "<group>"; };
 		E31E5A1922E140A50018B5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E31E5A1E22E140A50018B5EB /* CV AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CV AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31E5A2222E140A50018B5EB /* CV_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV_AppUITests.swift; sourceTree = "<group>"; };
 		E31E5A2422E140A50018B5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31E5A3022E141000018B5EB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E31E5A3222E141E80018B5EB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		E31E5A3422E1424C0018B5EB /* Biodata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biodata.swift; sourceTree = "<group>"; };
+		E31E5A3622E18C220018B5EB /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				E31E5A0222E140A00018B5EB /* AppDelegate.swift */,
-				E31E5A0422E140A00018B5EB /* ViewController.swift */,
-				E31E5A0622E140A00018B5EB /* Main.storyboard */,
+				E31E5A3822E18C7C0018B5EB /* Model */,
+				E31E5A3A22E18C910018B5EB /* ViewModel */,
+				E31E5A3922E18C860018B5EB /* View */,
+				E31E5A3222E141E80018B5EB /* WebService.swift */,
 				E31E5A0922E140A40018B5EB /* Assets.xcassets */,
-				E31E5A0B22E140A40018B5EB /* LaunchScreen.storyboard */,
 				E31E5A0E22E140A40018B5EB /* Info.plist */,
 			);
 			path = "CV App";
@@ -110,7 +119,7 @@
 		E31E5A1622E140A50018B5EB /* CV AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E31E5A1722E140A50018B5EB /* CV_AppTests.swift */,
+				E31E5A1722E140A50018B5EB /* WebServiceTests.swift */,
 				E31E5A1922E140A50018B5EB /* Info.plist */,
 			);
 			path = "CV AppTests";
@@ -123,6 +132,33 @@
 				E31E5A2422E140A50018B5EB /* Info.plist */,
 			);
 			path = "CV AppUITests";
+			sourceTree = "<group>";
+		};
+		E31E5A3822E18C7C0018B5EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E31E5A3422E1424C0018B5EB /* Biodata.swift */,
+				E31E5A3622E18C220018B5EB /* Experience.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E31E5A3922E18C860018B5EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E31E5A0B22E140A40018B5EB /* LaunchScreen.storyboard */,
+				E31E5A0622E140A00018B5EB /* Main.storyboard */,
+				E31E5A0422E140A00018B5EB /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E31E5A3A22E18C910018B5EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E31E5A3022E141000018B5EB /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31E5A0522E140A00018B5EB /* ViewController.swift in Sources */,
+				E31E5A0522E140A00018B5EB /* HomeViewController.swift in Sources */,
+				E31E5A3522E1424C0018B5EB /* Biodata.swift in Sources */,
+				E31E5A3122E141000018B5EB /* HomeViewModel.swift in Sources */,
+				E31E5A3722E18C220018B5EB /* Experience.swift in Sources */,
+				E31E5A3322E141E80018B5EB /* WebService.swift in Sources */,
 				E31E5A0322E140A00018B5EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31E5A1822E140A50018B5EB /* CV_AppTests.swift in Sources */,
+				E31E5A1822E140A50018B5EB /* WebServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
