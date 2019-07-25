@@ -12,6 +12,8 @@ class HomeViewController: UIViewController {
 
     // MARK: IBOutlets
     @IBOutlet var mainView: UIView!
+    @IBOutlet weak var headingTitle: UILabel!
+    
     @IBOutlet weak var loadingSpinner: UIActivityIndicatorView!
     @IBOutlet weak var imageContainer: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -25,6 +27,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         attemptToFetchBiodatas()
+        
     }
     
     func attemptToFetchBiodatas() {
@@ -44,6 +47,8 @@ class HomeViewController: UIViewController {
                 self.nameLabel.text = self.viewModel.nameString
                 self.contactLabel.text = self.viewModel.contactString
                 self.displayTextView.text = self.viewModel.detailString
+                guard let imagePath = self.viewModel.profilePicturePath else { return }
+                self.imageContainer.imageFromUrl(urlString: imagePath)
             }
         }
         

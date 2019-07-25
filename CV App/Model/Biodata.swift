@@ -8,8 +8,9 @@
 
 import Foundation
 
-struct Biodata: Codable {
+struct Biodata: Decodable {
     var name: String
+    var profilePicture: String
     var contactDetails: String
     var professionalSummary: String
     var skills: String

@@ -35,6 +35,7 @@ class HomeViewModel {
     }
     
     var nameString: String?
+    var profilePicturePath: String?
     var contactString: String?
     var detailString: String?
     
@@ -73,6 +74,7 @@ extension HomeViewModel {
             return
         }
         self.nameString = candidDetails.first?.name
+        self.profilePicturePath = candidDetails.first?.profilePicture
         self.contactString = candidDetails.first?.contactDetails
         self.detailString = candidDetails.first?.professionalSummary
     }

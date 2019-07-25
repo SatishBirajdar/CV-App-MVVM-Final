@@ -62,7 +62,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilePicture" translatesAutoresizingMaskIntoConstraints="NO" id="5rR-pA-5Dy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilePicturePlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="5rR-pA-5Dy">
                                 <rect key="frame" x="22" y="69" width="105" height="105"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="105" id="gft-DP-nB1"/>
@@ -141,6 +141,7 @@
                     <connections>
                         <outlet property="contactLabel" destination="ZT0-gQ-YH3" id="ev0-sI-NKO"/>
                         <outlet property="displayTextView" destination="hxm-Gn-l0h" id="mQQ-Au-c1J"/>
+                        <outlet property="headingTitle" destination="Y6e-sF-Kry" id="VKy-KN-Ohh"/>
                         <outlet property="imageContainer" destination="5rR-pA-5Dy" id="JMj-S3-DiD"/>
                         <outlet property="loadingSpinner" destination="9bL-xQ-kPl" id="bHv-35-6yf"/>
                         <outlet property="mainView" destination="3cf-Bx-i1X" id="UFD-tI-wft"/>
@@ -154,6 +155,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="profilePicture" width="203" height="203"/>
+        <image name="profilePicturePlaceholder" width="800" height="800"/>
     </resources>
 </document>

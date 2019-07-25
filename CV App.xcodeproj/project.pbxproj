@@ -18,6 +18,7 @@
 		E31E5A3322E141E80018B5EB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3222E141E80018B5EB /* WebService.swift */; };
 		E31E5A3522E1424C0018B5EB /* Biodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3422E1424C0018B5EB /* Biodata.swift */; };
 		E31E5A3722E18C220018B5EB /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3622E18C220018B5EB /* Experience.swift */; };
+		E334B0AB22E91A4300B9F69C /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E334B0AA22E91A4300B9F69C /* UIImageView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E31E5A3222E141E80018B5EB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		E31E5A3422E1424C0018B5EB /* Biodata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biodata.swift; sourceTree = "<group>"; };
 		E31E5A3622E18C220018B5EB /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		E334B0AA22E91A4300B9F69C /* UIImageView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				E31E5A0222E140A00018B5EB /* AppDelegate.swift */,
+				E31E5A3222E141E80018B5EB /* WebService.swift */,
 				E31E5A3822E18C7C0018B5EB /* Model */,
 				E31E5A3A22E18C910018B5EB /* ViewModel */,
 				E31E5A3922E18C860018B5EB /* View */,
-				E31E5A3222E141E80018B5EB /* WebService.swift */,
+				E334B0A922E91A4300B9F69C /* Extensions */,
 				E31E5A0922E140A40018B5EB /* Assets.xcassets */,
 				E31E5A0E22E140A40018B5EB /* Info.plist */,
 			);
@@ -159,6 +162,14 @@
 				E31E5A3022E141000018B5EB /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E334B0A922E91A4300B9F69C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E334B0AA22E91A4300B9F69C /* UIImageView + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 			files = (
 				E31E5A0522E140A00018B5EB /* HomeViewController.swift in Sources */,
 				E31E5A3522E1424C0018B5EB /* Biodata.swift in Sources */,
+				E334B0AB22E91A4300B9F69C /* UIImageView + Extension.swift in Sources */,
 				E31E5A3122E141000018B5EB /* HomeViewModel.swift in Sources */,
 				E31E5A3722E18C220018B5EB /* Experience.swift in Sources */,
 				E31E5A3322E141E80018B5EB /* WebService.swift in Sources */,

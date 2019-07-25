@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Experience : Codable {
+struct Experience : Decodable {
     var companyName: String
     var role: String
     var from: String
