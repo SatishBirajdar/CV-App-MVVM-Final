@@ -1,7 +1,7 @@
 # CV-App-MVVM-Final
 
 “CV-App” includes following:
-- Resume details (Name, Contact, Summary, Skills, Experience)
+- Resume details (Name, Profile picture, Contact, Summary, Skills, Experience)
 - These details are fetched from a mock host (www.mocky.io)
 - It follows MVVM pattern, with some future dependency injection (best-practise) approach.
 - Well organized programmatical UI with Autolayout.
