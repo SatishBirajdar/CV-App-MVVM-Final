@@ -4,8 +4,8 @@
 - Resume details (Name, Contact, Summary, Skills, Experience)
 - These details are fetched from a mock host (www.mocky.io)
 - It follows MVVM pattern, with some future dependency injection (best-practise) approach.
-- UI is programmatically created and is well organized.
-- It also handles network errors. (JSON parsing error and No internet connection)
+- Well organized programmatical UI with Autolayout.
+- Network error alerts. (JSON parsing error and No internet connection)
 - Unit test: since app’s functionality is just to display host data on the screen, there isn’t any computation/logic happening to test. So any unit testing is not needed that I believe.
 - Integration testing:
     - added api endpoint testing and successful response testing.
