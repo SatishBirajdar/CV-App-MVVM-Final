@@ -19,6 +19,8 @@
 		E31E5A3522E1424C0018B5EB /* Biodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3422E1424C0018B5EB /* Biodata.swift */; };
 		E31E5A3722E18C220018B5EB /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E5A3622E18C220018B5EB /* Experience.swift */; };
 		E334B0AB22E91A4300B9F69C /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E334B0AA22E91A4300B9F69C /* UIImageView + Extension.swift */; };
+		E334B0E822EABCA000B9F69C /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E334B0E622EABB7900B9F69C /* MockURLSession.swift */; };
+		E334B0EA22EABEF700B9F69C /* MockTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E334B0E922EABEF700B9F69C /* MockTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		E31E5A3422E1424C0018B5EB /* Biodata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biodata.swift; sourceTree = "<group>"; };
 		E31E5A3622E18C220018B5EB /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		E334B0AA22E91A4300B9F69C /* UIImageView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		E334B0E622EABB7900B9F69C /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		E334B0E922EABEF700B9F69C /* MockTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		E31E5A1622E140A50018B5EB /* CV AppTests */ = {
 			isa = PBXGroup;
 			children = (
+				E334B0E922EABEF700B9F69C /* MockTask.swift */,
+				E334B0E622EABB7900B9F69C /* MockURLSession.swift */,
 				E31E5A1722E140A50018B5EB /* WebServiceTests.swift */,
 				E31E5A1922E140A50018B5EB /* Info.plist */,
 			);
@@ -317,6 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E334B0E822EABCA000B9F69C /* MockURLSession.swift in Sources */,
+				E334B0EA22EABEF700B9F69C /* MockTask.swift in Sources */,
 				E31E5A1822E140A50018B5EB /* WebServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -47,7 +47,6 @@ class HomeViewModel {
     init(service: WebService) {
         webService = service
     }
-    
 }
 
 extension HomeViewModel {

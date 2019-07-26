@@ -9,10 +9,11 @@
 import Foundation
 
 class WebService {
-//  "https://www.mocky.io/v2/5d38e8e39f0000344e9b414b"
+
     let baseURL = "https://www.mocky.io/v2/5d38e8e39f0000344e9b414b"   // Host address
     var chachedURL : URL?                                              // For testing purpose
     
+    var session: URLSession!
     static let sharedInstance = WebService()
     
     func getBiodata(completion: @escaping (_ candidateDetail:[Biodata]?, _ error: Error?) -> Void) {
